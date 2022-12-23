@@ -1,0 +1,64 @@
+.historyImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-left: 2px solid red;
+    border-top: 2px solid orange;
+    border-right: 2px solid red;
+    border-bottom: 2px solid orange;
+}
+
+.history {
+    overflow-x: scroll;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.history .row {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.historymodal-img {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    margin: auto;
+    border-radius: 10px;
+    background-color: grey;
+    top: 200px;
+}
+.historymodal-img:nth-child(2){
+    left: 300px;
+}
+.historymodal-img:nth-child(3){
+    left: 1000px;
+}
+.historymodal-img:nth-child(4){
+    left: 1300px;
+}
+.historymodal-img:nth-child(5){
+    left: 1600px;
+}
+.historymodal-img:nth-child(5){
+    left: 2000px;
+}
+
+.historymodal-img-big {
+    width: 300px;
+    height: 450px;
+position: absolute;
+left: 600px;
+top: 150px;
+}
+
+.historyslider {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    gap: 95px;
+
+
+}
